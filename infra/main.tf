@@ -99,7 +99,7 @@ resource "aws_instance" "app_server" {
 
   vpc_security_group_ids = [aws_security_group.ec2_security_group.id]
 
-  user_data                   = file("init.sh")
+  user_data                   = file("userdata.sh")
   user_data_replace_on_change = true
 }
 
