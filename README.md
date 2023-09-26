@@ -18,7 +18,7 @@ Conforme contextualizado anteriormente, esta arquitetura consiste nos seguinte s
 ## Como rodar
 Após realizar o clone do repositório na sua máquina basta executar o script **init.sh**:
 
-    -> ./init_sh
+    -> ./init.sh
 
 Fique atento ao terminal, pois diversas vezes será solicitada a interação do usuário.
 
@@ -27,4 +27,4 @@ Para realizar a deleção de todos os recursos em sua conta AWS você deve execu
         
     -> ./destroy.sh
 
-O mesmo irá solicitar uma confirmação sua, então é necessário interagir com o terminal. Abaixo temos um GIF mostrando a execução do script de destruição dos recursos.
+O mesmo irá solicitar uma confirmação sua, então é necessário interagir com o terminal.
